@@ -1,0 +1,32 @@
+{
+  "name": "bify-wify",
+  "version": "1.0.2",
+  "description": "Magic away some exceedingly boring gulp + browserify boilerplate",
+  "main": "bify-wify-fwify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorlir/bify-wify.git"
+  },
+  "keywords": [
+    "browserify",
+    "boilerplate"
+  ],
+  "author": "@skorlir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skorlir/bify-wify/issues"
+  },
+  "homepage": "https://github.com/skorlir/bify-wify#readme",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "extend": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.0"
+  }
+}
