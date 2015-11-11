@@ -38,7 +38,8 @@ function wify (entries, opt) {
 
 function fbify (entries, outfile, dest, opt) {
   if (dest instanceof Object)
-    opt = dest, dest = 'dist'
+    opt = dest, dest = undefined
+  dest = either(dest, 'dist')
 
   var b = bify(entries, opt)
 
@@ -47,7 +48,8 @@ function fbify (entries, outfile, dest, opt) {
 
 function fwify (entries, outfile, dest, opt) {
   if (dest instanceof Object)
-    opt = dest, dest = 'dist'
+    opt = dest, dest = undefined
+  dest = either(dest, 'dist')
 
   var b = wify(entries, opt)
 
